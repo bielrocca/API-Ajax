@@ -1,0 +1,23 @@
+@media (max-width: 640px) {
+    .container {
+        width: 85%;
+    }
+
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .form-control {
+        width: 80vw;
+        margin-bottom: 16px;
+    }
+
+    .btn {
+        height: 50%;
+    }
+}

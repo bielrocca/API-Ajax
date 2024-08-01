@@ -47,8 +47,8 @@ $(document).ready(function() {
             const endereco = `${logradouro}, ${bairro} - ${cidade} - ${estado}`;
             $('#endereco').val(endereco);
         })
-        .catch(function(error) {
-            alert("Ocorreu um erro ao buscar o endereço, tente novamente! Mas se o problema persistir tente novamente mais tarde.")
+        .catch(function(erro) {
+            alert('Ocorreu um erro ao buscar o endereço, tente novamente mais tarde!');
         })
         .finally(function() {
             setTimeout(function() {
@@ -57,6 +57,7 @@ $(document).ready(function() {
             }, 1000);
         })
     })
+
     $('#formulario-pedido').submit(function(evento) {
         evento.preventDefault();
 

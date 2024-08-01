@@ -64,5 +64,9 @@ $(document).ready(function() {
         if ($('#nome').val().length == 0) {
             throw new Error('Digite o nome');
         }
+
+        if ($('#email').val().length == 0) {
+            throw new Error('Digite o email');
+        }
     })
 })
